@@ -2,8 +2,6 @@
 
 from openerp import models, fields, api
 
-
-
 class res_product(models.Model):
 
     VALUE_MENUDEO = 1.4
