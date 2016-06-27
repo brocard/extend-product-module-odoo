@@ -1,0 +1,18 @@
+<openerp>
+    <data>
+        <record id="product_edu_form" model="ir.ui.view">
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='description']" position="before">
+                    <field name="article" placeholder="Articulo (Nombre del producto para los clientes)"/>
+                </xpath>
+                <xpath expr="//field[@name='standard_price']" position="after">
+                    <field name="standard_price_1" />
+                    <field name="standard_price_2" />
+                    <field name="standard_price_3" />
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>
