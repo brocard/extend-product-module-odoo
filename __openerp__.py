@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Extender modulo de productos",
+    'name': "Módulo de productos con modificación",
 
     'summary': """
-        Modulo de estructura y campos extras para
-        productos """,
+        Módulo de productos con nuevos campos e información específica del usuario""",
 
     'description': """
-        Módulo y estructura para campos extras en el moduoo de Productos
+        Módulo y estructura para campos extras en el módulo de Productos y otras funcionalidades
+        especificas por el cliente.
     """,
 
     'author': "YBD <brocard@gmail.com>",
