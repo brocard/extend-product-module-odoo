@@ -4,8 +4,6 @@ from openerp import models, fields, api
 
 class res_product(models.Model):
 
-    VALUE_MENUDEO = 1.4
-
     _inherit = "product.template"
 
     article = fields.Text(string="Artículo")
@@ -16,7 +14,7 @@ class res_product(models.Model):
     standard_price_3 = fields.Float(string="Precio coste 3")
 
     # onchange handler
-    @api.onchange('list_price')
-    def _onchange_price(self):
+    #@api.onchange('list_price')
+    #def _onchange_price(self):
         # set auto-changing field
-        self.lst_price = self.list_price * 1.4
+    #    self.lst_price = self.list_price * 1.4
